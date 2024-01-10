@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px) {
+    app-newscard {
+      width: 33.33%;
+      float: left;
+  
+      ion-img {
+        width: 50%;
+        float: left;
+      }
+  
+      ion-card-content {
+        width: 50%;
+        float: left;
+      }
+    }
+  }
+  
+  
+  @media only screen and (max-width: 767px) and (min-width: 576px) {
+    app-newscard {
+      width: 50%;
+      float: left;
+  
+      ion-img {
+        width: 100%;
+      }
+  
+      ion-card-content {
+        width: 100%;
+      }
+    }
+  }
+  
+  
+  @media only screen and (max-width: 575px) {
+    app-newscard {
+      width: 100%;
+      float: left;
+  
+      ion-img {
+        width: 200px;
+      }
+  
+      ion-card-content {
+        width: 100%;
+      }
+    }
+  }
